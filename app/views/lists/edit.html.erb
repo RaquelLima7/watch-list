@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+      <h1>Edit List</h1>
+        <%= simple_form_for @list do |f| %>
+        <%= f.input :name %>
+        <%= f.submit class: 'btn btn-primary' %>
+      <% end %>
+        <%= link_to lists_path do %>
+            <i class="fa fa-history"></i> Back to list
+        <% end %>
+    </div>
+  </div>
+</div>
