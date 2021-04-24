@@ -1,0 +1,15 @@
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+      <h1>My Lists</h1>
+        <% @lists.each do |list| %>
+          <ul class="list-group">
+          <li><%= list.name %></li>
+        <% end %>
+          </ul>
+          <div class="mt-3">
+        <%= link_to "Add a new List", new_list_path, class: 'btn btn-primary' %>
+        </div>
+   </div>
+  </div>
+</div>
