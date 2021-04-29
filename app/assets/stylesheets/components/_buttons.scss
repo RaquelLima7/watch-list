@@ -1,15 +1,24 @@
 .btn-flat {
-  color: white;
+  color: white !important;
   padding: 8px 24px;
   border-radius: 4px;
-  background: #1EDD88;
-  transition: background 0.3s ease;
+  background-color:#0B215B;
+  // transition: background 0.3s ease;
+}
+
+.btn-flat:hover {
+  background-color:#020a20;
 }
 
 .btn-cancel {
   color: white;
   padding: 8px 24px;
   border-radius: 4px;
-  background: #6a757e;
-  transition: background 0.3s ease;
+  background-color:#D53B1D;
+  // transition: background 0.3s ease;
+}
+
+.btn-cancel:hover {
+  background-color:#9E2913!important;
+  color: white;
 }

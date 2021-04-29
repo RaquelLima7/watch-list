@@ -9,6 +9,16 @@ require("@rails/activestorage").start()
 require("channels")
 import 'bootstrap';
 
+import 'select2/dist/css/select2.min.css'
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import { initSelect2 } from './plugins/init_select2';
+
+document.addEventListener('turbolinks:load', () => {
+    initSelect2();
+    AOS.init();
+});
+
 
 // Uncomment to copy all static images under ../images to the output folder and reference
 // them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)
