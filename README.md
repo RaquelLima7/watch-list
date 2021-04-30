@@ -4,7 +4,7 @@
 
 <br>
 
-[Link Deploy] (https://watch-list-raquel.herokuapp.com/)
+[Link Deploy](https://watch-list-raquel.herokuapp.com/)
 
 <br>
 
