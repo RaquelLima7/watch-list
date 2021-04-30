@@ -1,24 +1,10 @@
-# README
+# Watch list an application with Ruby on Rails 💎, Bootstrap and Le Wagon movies API.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## In that application you can make lists and add movies, and you can also exclude it. 📽 🎞
 
-Things you may want to cover:
+<br>
 
-* Ruby version
+[Link Deploy] (https://watch-list-raquel.herokuapp.com/)
+<br>
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<img src="watch-list.gif" alt="watch-list">
