@@ -5,6 +5,7 @@
 <br>
 
 [Link Deploy] (https://watch-list-raquel.herokuapp.com/)
+
 <br>
 
-<img src="watch-list.gif" alt="watch-list">
+<img src="watch_list.gif" alt="watch-list"> 
